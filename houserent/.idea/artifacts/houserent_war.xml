@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="houserent:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>houserent</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="verio.war">
+      <element id="artifact" artifact-name="houserent:war exploded" />
+    </root>
+  </artifact>
+</component>

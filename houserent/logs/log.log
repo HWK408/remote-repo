@@ -1,0 +1,23 @@
+2024-06-16 10:24:08.274  INFO 14648 --- [restartedMain] com.javaclimb.houserent.Application      : Starting Application on HWK with PID 14648 (D:\houserent\houserent\target\classes started by 27408 in D:\houserent\houserent)
+2024-06-16 10:24:08.279  INFO 14648 --- [restartedMain] com.javaclimb.houserent.Application      : No active profile set, falling back to default profiles: default
+2024-06-16 10:24:08.335  INFO 14648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-16 10:24:08.335  INFO 14648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-16 10:24:08.858  WARN 14648 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.ssm.rental.mapper]' package. Please check your configuration.
+2024-06-16 10:24:09.444  INFO 14648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2024-06-16 10:24:09.474  INFO 14648 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-16 10:24:09.474  INFO 14648 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2024-06-16 10:24:09.690  INFO 14648 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-06-16 10:24:09.700  INFO 14648 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-16 10:24:09.701  INFO 14648 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1366 ms
+2024-06-16 10:24:09.836  INFO 14648 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-06-16 10:24:09.952  INFO 14648 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-06-16 10:24:10.642  INFO 14648 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2024-06-16 10:24:10.716  INFO 14648 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-16 10:24:10.790  INFO 14648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2024-06-16 10:24:10.792  INFO 14648 --- [restartedMain] com.javaclimb.houserent.Application      : Started Application in 3.118 seconds (JVM running for 4.485)
+2024-06-16 10:24:10.795  INFO 14648 --- [restartedMain] com.javaclimb.houserent.Application      : Verio started at http://localhost:9999
+2024-06-16 10:24:14.217  INFO 14648 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-16 10:24:14.218  INFO 14648 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-16 10:24:14.229  INFO 14648 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2024-06-16 12:19:07.413  INFO 14648 --- [Thread-15] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2024-06-16 12:19:07.422  INFO 14648 --- [Thread-15] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
